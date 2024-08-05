@@ -1,0 +1,120 @@
+.parent{
+    margin-top:50px;
+    background:blue;
+    position:relative;
+ 
+}
+
+.child-zero{
+    padding:20px;
+    opacity:50%;
+    background:red;
+    position:absolute;
+    top:0;
+
+}
+
+.child-one{
+    padding:20px;
+    background:yellow;
+/*     position:relative;
+    left:5px;
+    top:5px; */
+}
+
+.child-two{
+    position:sticky;
+    top:0;
+    padding:20px;
+    background:green;
+}
+
+.child-three{
+    position:fixed; /* ingore parent element, it is wixed to entire html element */
+    top:0;
+    padding:20px;
+    background:pink;
+}
+
+
+.child-four{
+    position:static;  /* default */
+    padding:20px;
+    background:lightblue;
+}
+
+
+.section-two{
+    margin-top: 20px;
+    position:sticky;
+    background:lightgray;
+
+}
+
+.section-two-navbar{
+    padding:10px;
+    color:white;
+    background:black;
+}
+
+.section-two-main{
+    display:flex;
+    flex-direction:column;
+    overflow: scroll;
+    height:200px;
+    position:relative;
+
+}
+
+.page-title{
+    margin-top:20px;
+    background:white;
+    position:sticky;
+    top:0;
+}
+
+.text-area{
+    display:flex;
+    border: 2px solid black
+}
+
+.article-text{
+    position:relative;
+   
+
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+}
+p {
+    text-align: justify;
+}
+
+.section-two-bottom{
+    position:absolute;
+    background:purple;
+    color:white;
+    width:50%;
+    bottom:0px;
+ 
+}
+
+.test-div{
+    background: green;
+    position:fixed;
+    top:80px;
+    left:0;
+    right:0;
+    text-align:center;
+}
+
+
+.aside{
+    position:sticky;
+    top:0;
+    align-self:start;  /*  important to stizky make work inside block*/
+    width:50%;
+    background:yellow;
+}
